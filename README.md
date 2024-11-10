@@ -1,10 +1,21 @@
 # packifyui
 
-A lightweight, modular UI component library for React, bundled with Rollup.
+![PackifyUI Logo](https://github.com/yourusername/packifyui/assets/logo.png) <!-- Add a logo or image if available -->
+
+A lightweight, modular UI component library for React, designed to enhance your web applications with reusable, customizable UI elements. Built with TypeScript and bundled using Rollup for optimal performance and flexibility.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Components](#components)
+- [Build](#build)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
-To install `packifyui`, run:
+To add `packifyui` to your project, run:
 
 ```bash
 npm install packifyui
@@ -12,21 +23,7 @@ npm install packifyui
 
 ## Usage
 
-After installing, import the components or utilities you need in your project.
-
-```javascript
-import { YourComponent } from 'packifyui';
-
-function App() {
-  return <YourComponent />;
-}
-
-export default App;
-```
-
-### Example Usage
-
-Here’s a basic example demonstrating how to use one of the components:
+Import and use components from `packifyui` in your React project. Here's a basic example:
 
 ```javascript
 import { Button } from 'packifyui';
@@ -42,48 +39,56 @@ function App() {
 export default App;
 ```
 
+## Components
+
+The library currently includes the following components:
+
+- **Button**: A customizable button component.
+- *(Add other components here as they are added to the library)*
+
+### Button
+
+- **Props**:
+  - `label` (string): The text displayed on the button.
+  - `onClick` (function): Callback function for the button's `onClick` event.
+
+*Expand the list with descriptions of any additional components or utilities.*
+
 ## Build
 
-To build the library, use the following command:
+To build the library, clone this repository and run:
 
 ```bash
+npm install
 npm run build
 ```
 
-This will use Rollup to bundle the components into the `dist/` directory.
-
-## API Reference
-
-Here’s a summary of the available components and their props:
-
-### `Button`
-
-- `label` (string) - The text displayed on the button.
-- `onClick` (function) - Function to execute on button click.
-
-## Configuration
-
-If the package supports customization or configuration, describe those options here.
+The built files will be output to the `dist/` folder.
 
 ## Contributing
 
-If you would like to contribute to `packifyui`, please follow these steps:
+We welcome contributions to enhance `packifyui`! If you’d like to contribute, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m "Added new feature"`).
-4. Push to the branch (`git push origin feature-name`).
-5. Create a pull request.
+1. Fork this repository.
+2. Create a new branch with a descriptive name (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -m "Description of changes"`).
+4. Push the changes to your forked repository (`git push origin feature-name`).
+5. Open a pull request on the main repository.
+
+### Running Locally
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/packifyui.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server or build the project as required.
 
 ## License
 
-This project is licensed under the ISC License.
-```
-
----
-
-### Notes
-- Replace `YourComponent` and `Button` with actual component names in your package.
-- Update `API Reference` if more components or features are available.
-- If your package has additional installation steps, document them in the **Installation** section.
-- Customize the **Usage** section based on the actual components or functions your package exports.
+This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
