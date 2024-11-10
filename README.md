@@ -1,10 +1,10 @@
 # packifyui
 
-A lightweight, modular UI component library for React, bundled with Rollup.
+A lightweight, modular UI component library for React, designed to enhance web applications with customizable UI elements.
 
 ## Installation
 
-To install `packifyui`, run:
+To add `packifyui` to your project, run:
 
 ```bash
 npm install packifyui
@@ -12,21 +12,7 @@ npm install packifyui
 
 ## Usage
 
-After installing, import the components or utilities you need in your project.
-
-```javascript
-import { YourComponent } from 'packifyui';
-
-function App() {
-  return <YourComponent />;
-}
-
-export default App;
-```
-
-### Example Usage
-
-Here’s a basic example demonstrating how to use one of the components:
+Here’s an example of how to use `packifyui` in a React component:
 
 ```javascript
 import { Button } from 'packifyui';
@@ -42,39 +28,55 @@ function App() {
 export default App;
 ```
 
+## Components
+
+The library currently includes the following components:
+
+- **Button**: A customizable button component.
+
+### Button
+
+- **Props**:
+  - `label` (string): The text displayed on the button.
+  - `onClick` (function): Callback function for the button's `onClick` event.
+
 ## Build
 
-To build the library, use the following command:
+To build the library, clone this repository and run:
 
 ```bash
+npm install
 npm run build
 ```
 
-This will use Rollup to bundle the components into the `dist/` directory.
-
-## API Reference
-
-Here’s a summary of the available components and their props:
-
-### `Button`
-
-- `label` (string) - The text displayed on the button.
-- `onClick` (function) - Function to execute on button click.
-
-## Configuration
-
-If the package supports customization or configuration, describe those options here.
+The built files will be output to the `dist/` folder.
 
 ## Contributing
 
-If you would like to contribute to `packifyui`, please follow these steps:
+We welcome contributions to enhance `packifyui`! If you’d like to contribute, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m "Added new feature"`).
-4. Push to the branch (`git push origin feature-name`).
-5. Create a pull request.
+1. Fork this repository.
+2. Create a new branch with a descriptive name (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -m "Description of changes"`).
+4. Push the changes to your forked repository (`git push origin feature-name`).
+5. Open a pull request on the main repository.
+
+### Running Locally
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mukundbansal10/PackifyUI.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server or build the project as required.
 
 ## License
 
 This project is licensed under the ISC License.
+```
+
