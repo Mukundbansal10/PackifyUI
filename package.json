@@ -4,6 +4,7 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
+  "readme": "README.md",
   "scripts": {
     "build": "npx rollup -c"
   },
