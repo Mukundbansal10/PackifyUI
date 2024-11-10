@@ -78,12 +78,3 @@ If you would like to contribute to `packifyui`, please follow these steps:
 ## License
 
 This project is licensed under the ISC License.
-```
-
----
-
-### Notes
-- Replace `YourComponent` and `Button` with actual component names in your package.
-- Update `API Reference` if more components or features are available.
-- If your package has additional installation steps, document them in the **Installation** section.
-- Customize the **Usage** section based on the actual components or functions your package exports.
