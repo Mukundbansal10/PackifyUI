@@ -1,7 +1,5 @@
 # packifyui
 
-![PackifyUI Logo](https://github.com/yourusername/packifyui/assets/logo.png) <!-- Add a logo or image if available -->
-
 A lightweight, modular UI component library for React, designed to enhance your web applications with reusable, customizable UI elements. Built with TypeScript and bundled using Rollup for optimal performance and flexibility.
 
 ## Table of Contents
