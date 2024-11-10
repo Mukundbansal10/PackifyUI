@@ -1,15 +1,6 @@
 # packifyui
 
-A lightweight, modular UI component library for React, designed to enhance your web applications with reusable, customizable UI elements. Built with TypeScript and bundled using Rollup for optimal performance and flexibility.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Components](#components)
-- [Build](#build)
-- [Contributing](#contributing)
-- [License](#license)
+A lightweight, modular UI component library for React, designed to enhance web applications with customizable UI elements.
 
 ## Installation
 
@@ -21,7 +12,7 @@ npm install packifyui
 
 ## Usage
 
-Import and use components from `packifyui` in your React project. Here's a basic example:
+Here’s an example of how to use `packifyui` in a React component:
 
 ```javascript
 import { Button } from 'packifyui';
@@ -42,15 +33,12 @@ export default App;
 The library currently includes the following components:
 
 - **Button**: A customizable button component.
-- *(Add other components here as they are added to the library)*
 
 ### Button
 
 - **Props**:
   - `label` (string): The text displayed on the button.
   - `onClick` (function): Callback function for the button's `onClick` event.
-
-*Expand the list with descriptions of any additional components or utilities.*
 
 ## Build
 
@@ -79,7 +67,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/packifyui.git
+   git clone https://github.com/Mukundbansal10/PackifyUI.git
    ```
 2. Install dependencies:
    ```bash
